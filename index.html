@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Languages-Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header id="L-D">Languages-Documentation </header>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#HTML">HTML</a></li>
+        <li><a class="nav-link" href="#CSS">CSS</a></li>
+        <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+        <li><a class="nav-link" href="#Web_Development_Tools">Web Development Tools</a></li>
+    </nav>
+
+    <main id="main-doc">
+       <section class="main-section" id="Introduction">
+        <header id="k"><b>Introduction</b></header>
+        <p>Software languages, also known as programming languages, are formal languages used to instruct computers to perform specific tasks. 
+            They serve as the primary means of communication between humans and computers, enabling developers to write instructions that 
+            computers can understand and execute.</p>
+        <p><strong>Types of Software Languages</strong></p>
+        <ol>
+            <li>High-level Languages</li>
+            <li>Low-level Languages</li>
+            <li>Scripting Languages</li>
+            <li>Domain-specific Languages</li>
+            <li>Markup Languages</li>
+        </ol>
+        <p style="color: rgba(92, 12, 167, 0.904);">This is an HTML example</p>
+        <pre>
+            <code>
+                
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Document&lt;/title &gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                 
+                &lt;/body&gt;
+                &lt;/html&gt;
+
+            </code>
+        </pre>
+       </section>
+
+       <section class="main-section" id="HTML">
+        <header id="k"><b>HTML</b></header>
+        <p><strong>Definiton:</strong>HTML is the standard markup language used to create and design web pages. It provides a structured way to organize and format content on the World Wide Web.</p>
+        <p><strong>Structure:</strong>HTML elements are composed of an opening tag, content, and a closing tag. For example:</p>
+        <pre>
+            <code>
+                &lt;h1&gt; This is a heading &lt;/h1&gt;
+                &lt;h1&gt; This is a paragraph &lt;/h1&gt;
+
+            </code>
+        </pre>
+       </section>
+
+       <section class="main-section" id="CSS">
+        <header id="k"><b>CSS</b></header>
+        <p><strong>Definition: </strong>CSS is a style sheet language used to describe the presentation of a document written in a markup language like HTML. 
+            It enables web developers to control the layout, appearance, and styling of web pages.</p>
+            <p><strong>Separation of Concerns:</strong>CSS promotes separation of concerns by separating the structure (HTML) from the presentation (CSS) and behavior (JavaScript) of a web page. 
+                This makes it easier to manage and update different aspects of a website.</p>
+            <p><strong>Syntax: </strong>CSS consists of a set of rules that define how elements should be displayed. Each rule consists of a selector, followed by a declaration 
+                block enclosed in curly braces {}, containing one or more property-value pairs. For example:</p>
+                <pre>
+                    <code>
+                        body {
+                            font-family: Arial, sans-serif;
+                            line-height: 1.6;
+                            margin: 20px;
+                            background-color: #f9f9f9;
+                            color: #333;
+                        }
+                        header {
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
+                        h1 {
+                            color: #333;
+                        }
+                        section {
+                            max-width: 800px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            background-color: #fff;
+                            border-radius: 8px;
+                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        }
+                        <p><strong>Selectors: </strong>Selectors are used to target specific HTML elements to apply styles. They can target elements by their tag name, class, ID, 
+                            attributes, or relationship to other elements. Examples include:</p>
+                            <ul>
+                                <li>Tag selector: h1 { }</li>
+                                <li>Class selector: .btn { }</li>
+                                <li>ID selector: #header { }</li>
+                                <li>Attribute selector: input[type="text"] { }</li>
+                            </ul>
+                    </code>
+                </pre>
+       </section>
+
+       <section class="main-section" id="JavaScript_and_Java">
+        <header id="k">JavaScript and Java</header>
+        <p><strong>Definition:</strong>JavaScript is a high-level, interpreted programming language primarily used for web development. It allows developers to add interactivity, 
+            dynamic behavior, and functionality to web pages.</p>
+            <p><strong>Client-side Scripting:</strong> JavaScript is primarily used as a client-side scripting language, meaning it runs in the user's web browser rather than on 
+                a server. It can manipulate the HTML DOM (Document Object Model), handle user interactions, and perform various tasks without requiring page 
+                reloads.</p>
+                <p><strong>Syntax:</strong> JavaScript syntax is similar to other programming languages like Java and C. It uses variables, data types, operators,
+                     control structures (if statements, loops), functions, and objects. Here's a simple example:</p>
+                     <pre>
+                        <code>
+                            // Define a function to greet the user
+                            function greet(name) {
+                                return "Hello, " + name + "!";
+                            }
+                            
+                            // Call the function
+                            var message = greet("John");
+                            console.log(message); // Output: Hello, John!
+                            
+                        </code>
+                     </pre>
+       </section>
+       
+       <section class="main-section" id="Web_Development_Tools">
+        <header id="k">Web Development Tools</header>
+        <p><strong>Integrated Development Environments (IDEs):</strong><br><br>
+
+            <ul>    
+                <li>IDEs are comprehensive software applications that provide developers with all the necessary tools for web development in one package. 
+                    They typically include features such as code editors with syntax highlighting, code completion, debugging tools, version control integration,
+                     and project management capabilities.</li><br>
+                <li>Examples: Visual Studio Code, JetBrains WebStorm, Atom, Sublime Text.</li>
+            </ul>
+        </p>
+        <p><strong>Text Editors:</strong><br><br>
+            <ul>
+                <li>Text editors are lightweight software tools specifically designed for editing code. They offer features like syntax highlighting,
+                     code folding, and customizable themes. While not as feature-rich as IDEs, they are popular among developers who prefer minimalistic tools.</li><br>
+                <li>Examples: Notepad++, Brackets, Vim, Emacs.</li>
+            </ul>
+        </p>
+        <p><strong>Version Control Systems (VCS):</strong><br><br>
+            <ul>
+                <li>VCS help developers manage changes to their codebase, track revisions, collaborate with others, and maintain code integrity. 
+                    They allow developers to work on different features simultaneously without conflicting changes.</li><br>
+                <li>Examples: Git (most popular), SVN (Subversion), Mercurial.</li>
+            </ul>
+        </p>
+        <pre>
+            <code>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const taskList = document.getElementById('taskList');
+                    const taskInput = document.getElementById('taskInput');
+                    const addTaskBtn = document.getElementById('addTaskBtn');
+                
+                    addTaskBtn.addEventListener('click', function() {
+                        const taskText = taskInput.value.trim();
+                        if (taskText !== '') {
+                            const taskItem = document.createElement('div');
+                            taskItem.classList.add('taskItem');
+                            taskItem.textContent = taskText;
+                            taskList.appendChild(taskItem);
+                            taskInput.value = '';
+                        }
+                    });
+                });
+                
+            </code>
+        </pre>
+       </section>
+    </main>
+    
+</body>
+</html>
